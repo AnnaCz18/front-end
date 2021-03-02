@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+.title{
+font-size: 60px;
+border: rgb(221, 18, 177) 2px solid;
+padding: 20px;
+width: 100%;
+background-color: rgb(141, 104, 156);
+display: flex;
+justify-content: center;
+}
+#menu1{
+    border: rgb(221, 18, 177) 2px solid;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(141, 104, 156);
+    position: sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+}
+.content{
+
+display: flex;
+justify-content: center;
+}
+.content div{
+    flex:1;
+}
+img{
+
+    max-width: 100%;
+}
+.opis1{
+    border: rgb(221, 18, 177) 2px solid;
+width: 40%;
+height: 40%;
+}
+#menu2{
+    border: rgb(221, 18, 177) 2px solid;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(141, 104, 156);
+    position: sticky;
+    top:0;
+}
+.nauka{
+    border: rgb(221, 18, 177) 2px solid;}
+
+.wykres1{
+    border: rgb(221, 18, 177) 2px solid;
+    display: flex;
+    height: 700px;
+position: relative;
+width: 100%;}
+    
+.html{
+        border: rgb(221, 18, 177) 2px solid;
+    bottom: 0;
+    width: 20%;
+position: absolute;
+height: 100px;
+left: 20%;
+}
+.css{
+            border: rgb(221, 18, 177) 2px solid;
+            position: absolute;
+            width: 20%;
+left:50%;
+            bottom:0;
+        height: 200px;}
+.js{
+                border: rgb(221, 18, 177) 2px solid;
+                bottom: 0;
+                position: absolute;
+                width: 20%;
+                left:80%;
+             height: 500px;}
+
+.opis2{
+  border: rgb(221, 18, 177) 2px solid;}
+.footer{
+    border: rgb(221, 18, 177) 2px solid;}
+.programy{
+
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.nauka{
+    display: flex;
+    justify-content: center;
+}

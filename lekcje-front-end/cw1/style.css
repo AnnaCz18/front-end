@@ -1,0 +1,68 @@
+body{
+
+    background-color: rgb(226, 157, 171)!important;
+}
+div{
+
+border: rgb(22, 22, 22) 2px solid;
+}
+.div1{
+    background-color: darkcyan;
+}
+.flex
+{
+display:flex;
+border: solid pink;
+}
+.flex div{
+
+    background-color: powderblue;
+    
+}
+.left{
+flex:2;
+
+}
+.flex .left img {
+max-width: 100%;
+
+}
+.right{
+flex:1;
+
+}
+.header{
+    display: flex;
+justify-content: center;
+ 
+    border:blueviolet solid;
+}
+.logo{
+background-color: chartreuse;
+padding: 0px 50px ;
+margin: 10px;
+}
+.footer {
+padding: 20px 10px;
+justify-content: center;
+}
+.sprite
+{
+width: 90px;
+height: 90px;
+background: url("sprites.jpg");
+display: flex;
+}
+.sprite:hover{
+background-position: 0-90px;
+}
+.sprite:active{
+    background-position: 0 -180px;          
+}
+
+
+}
+.absolutne{
+    
+    width: 30px;
+}

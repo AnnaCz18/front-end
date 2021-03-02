@@ -1,0 +1,61 @@
+#title{
+    border: solid 2px red;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+}
+#subtitle{
+    border-right: solid 2px red;
+    border-left: solid 2px red;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+
+
+}
+.gifa{
+    border: solid 2px red;
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+#content{
+    border: solid 2px red;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;}
+    .gifimg{
+        border: solid 2px red;
+        justify-content: center;
+        display: flex;
+        font-size: 20px;
+        padding: 50px;
+        flex:2;
+    }
+
+    .gifopis{
+        border: solid 2px red;
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        padding: 50px;
+        flex:1;
+    }
+
+
+    
+#footer {
+        border-left: solid 2px red;
+        border-right: solid 2px red;
+        border-bottom: solid 2px red;
+        justify-content: center;
+        display: flex;
+        font-size: 20px;
+        padding: 20px;}
+
+   

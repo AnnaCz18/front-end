@@ -1,0 +1,216 @@
+
+body{
+
+    background-color: rgb(226, 157, 171)!important;
+}
+
+.sprite
+{
+width: 90px;
+height: 90px;
+background: url("sprites.jpg");
+
+}
+.sprite:hover{
+background-position: 0-90px;
+}
+.sprite:active{
+    background-position: 0 -180px;          
+}
+
+.nav{
+
+display: flex;
+justify-content: space-around;
+border: rgb(112, 185, 17) 2px solid;
+width: 100%;
+
+}
+.absolutne
+{
+    width: 100px;
+}
+.relatywne{
+
+    width: 100px;
+}
+.czcionki{
+
+    width: 100px;
+
+}
+.logo{
+
+  
+    border: rgb(112, 185, 17) 2px solid;
+    display: flex;
+    justify-content: flex-end ;
+
+}
+*{
+    box-sizing: border-box;
+}
+.log
+{
+    border: rgb(221, 18, 177) 2px solid;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.wykres{
+
+    padding: 40px;
+    align-items: center;
+    
+}
+.wykrestrue{
+
+    padding: 10px;
+    border: rgb(221, 18, 177) 2px solid;
+    display: flex;
+    justify-self: center;
+    
+    
+}
+.piksele{
+
+    margin:10px;
+    width: 40px;
+    height: 40px;
+    border: rgb(22, 22, 22) 2px solid;
+
+}
+
+
+
+.cale
+{
+
+    
+    margin:10px;
+    width: 40px;
+    height: 200px;
+    border: rgb(22, 22, 22) 2px solid;
+
+}
+.cm{
+
+    
+    margin:10px;
+    width: 40px;
+    height: 40px;
+    border: rgb(22, 22, 22) 2px solid;
+
+}.mm{
+
+    
+    margin:10px;
+    width: 40px;
+    height: 90px;
+    border: rgb(22, 22, 22) 2px solid;
+
+}
+.punkty{
+
+    
+    margin:10px;
+    width: 40px;
+    height: 40px;
+    border: rgb(22, 22, 22) 2px solid;
+
+}
+.piki{
+
+    
+    margin:10px;
+    width: 40px;
+    height: 100px;
+    border: rgb(22, 22, 22) 2px solid;
+
+
+}
+.relat{
+    border: rgb(22, 22, 22) 2px solid;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+background: chartreuse;
+}
+.wyk{
+    border: rgb(22, 22, 22) 2px solid;
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+}
+.procenty{
+    border: rgb(22, 22, 22) 2px solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    width: 400px;
+    height: 18px;
+}
+.em{
+    border: rgb(22, 22, 22) 2px solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    width: 100px;
+    height: 18px;
+}.vh{
+    border: rgb(22, 22, 22) 2px solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    width: 200px;
+}.vmax{
+    border: rgb(22, 22, 22) 2px solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    width: 300px;
+}.vmin{
+    border: rgb(22, 22, 22) 2px solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    width: 450px;
+}
+.child1
+{
+position: absolute;
+margin-left: -20px;
+}
+.child2
+{
+    position: absolute;
+    margin-left: -20px;
+
+}
+.czcio{
+    border: rgb(22, 22, 22) 2px solid;
+
+}
+.kontener{
+
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+.jak{
+    font-size: 1em;
+}
+.to{
+    font-size: 2em;
+}.zrobić{
+    font-size: 3em;
+}
+h5 {
+
+    margin-top: 0;
+}
